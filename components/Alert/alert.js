@@ -5,7 +5,7 @@ class Alert extends HTMLElement {
 
     connectedCallback() {
         var msg = this.attributes.msg.value
-        this.classList = 'h-alert-box'
+        this.classList = 'alert-box'
         this.innerHTML = `
           <div>
             ${msg}

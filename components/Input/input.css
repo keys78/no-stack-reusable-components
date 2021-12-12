@@ -1,6 +1,6 @@
-/* .input-group {
-    border: 1px solid red;
-} */
+.input-group {
+    padding:0;
+}
 
 .label{
     display: block;

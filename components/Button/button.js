@@ -18,11 +18,8 @@ class Button extends HTMLElement {
         if(this.hasAttribute('btn-tertiary')) {
             this.classList.add('bg-tertiary')
         }
-        if(this.hasAttribute('btn-quatenary')) {
-            this.classList.add('bg-quatenary')
-        }
-        if(this.hasAttribute('br-1')) {
-            this.classList.add('br-1')
+        if(this.hasAttribute('br-2')) {
+            this.classList.add('br-2')
         }
         if(this.hasAttribute('br-full')) {
             this.classList.add('br-full')

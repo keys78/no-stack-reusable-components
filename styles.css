@@ -5,7 +5,7 @@
     --color-primary: blue;
     --color-secondary: red;
     --color-tertiary: #aaa;
-    --color-quartenary: rgb(216, 59, 59);
+    --color-quaternary: green;
 
     /* border-radius */
     --br-1: 3px;
@@ -17,89 +17,15 @@
 
 html, body{
     width: 90%;
-    margin:50px auto;
+    margin: auto;
+    padding: 3rem 0;
 }
 
-.pop-up {
-    border: 1px solid var(--custom-border-color);
-    padding:10px 8px;
-    border-radius:var(--custom-border-radius);
-}
 
-.pop-up p{
-    margin:10px 0 20px 0;
-    text-align: center;
-}
-
-.pop-up button {
-    display: flex;
-    align-items:flex-end;
-    justify-content: flex-end;
-    background:var(--primary-color);
-    padding:4px 10px;
-    color: var(--neutral-color);
-    border-radius:var(--custom-border-radius);
-}
-
-/* Button Components */
-/* .btn {
-    cursor: pointer;
-    padding: 5px 20px;
-    border: 1px solid var(--custom-border-color);
-} */
-
-.border-pill {
-    border-radius: var(--custom-border-pill);
-}
-.border-custom {
-    border-radius: var(--custom-border-radius);
-}
-
-.btn-primary {
-    background:var(--primary-color);
-    color:var(--neutral-color)
-}
-.btn-danger {
-    background:red;
-    color:var(--neutral-color)
-}
-.btn-default {
-    background:var(--netral-color)
-}
-.btn-link {
-    border: none;
-    color: var(--primary-color);
-}
-
-.card {
+/* .card {
     background-color: #fff;
     border: 1px solid gray;
     padding: 32px;
     border-radius: 4px;
-}
-/* 
-.h-alert-box {
-    width: auto;
-    padding: 7px 20px;
-    text-align: center;
-    background-color: #000;
-    border-bottom: 5px solid gray;
-    border-right: 5px solid gray;
-    position: absolute;
-    top: 15px;
-    right: 65px;
-    color: #fff;
-    font-size: 16px;
-}
-.h-alert-box.success {
-    background-color: green;
-}
-.h-alert-box.error {
-    background-color: red;
-}
-.h-alert-box.warning{
-    background-color: yellow;
-}
-.h-alert-box.progress {
-    background-color: blue;
 } */
+

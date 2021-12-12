@@ -11,35 +11,42 @@
     <script src="components/Button/button.js" type="text/javascript" defer></script>
     <script src="components/Alert/alert.js" type="text/javascript" defer></script>
     <script src="components/Card/card.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="components/Input/input.css">
-    <link rel="stylesheet" href="components/Button/buttonStyles.css">
-    <link rel="stylesheet" href="components/Alert/alertStyles.css" type="text/css">
+    <script src="components/Loader/loader.js" type="text/javascript" defer></script>
+    <script src="components/Card/card.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="components/Input/input.css" type="text/css">
+    <link rel="stylesheet" href="components/Button/buttonStyles.css" type="text/css">
+    <link rel="stylesheet" href="components/Alert/alertStyles.css" type="text/css" type="text/css">
+    <link rel="stylesheet" href="components/Loader/loader.css" type="text/css">
     <link rel="stylesheet" href="components/Card/card.css" type="text/css">
 </head>
 
 <body>
-    <!-- <header-component></header-component> -->
-    <!-- <div class="pop-up sm:w-4/12 w-full mx-auto">
-        <p>Error, something went wrong. Please try again Later</p>
-        <button type="button">Ok</button>
-    </div> -->
-
-    <alert-component success msg="Welcome to our web components"></alert-component>
+    <loader-component></loader-component>
+    <alert-component success msg="A typical alert message"></alert-component>
     <input-component label="Email" type="text"></input-component><br>
 
-    <button-component type="button" onClick="alert('hello')" content="Login"></button-component><br><br>
+    <button-component type="button" onClick="alert('I am the default')" content="Default Button"></button-component>
+    <button-component btn-primary type="button" onClick="alert('I am a primary button')" content="Primary Button"></button-component>
+    <button-component btn-secondary type="button" onClick="alert('I am a danger button')" content="Danger Button"></button-component>
+    <button-component btn-tertiary type="button" onClick="alert('I am a tet button')" content="Tertiary Button"></button-component>
+    <br><br>
 
-    <div class="card">
-       <form action="">
-           <input-component label="Username" type="text"></input-component><br>
-           <input-component label="password" type="password"></input-component><br>
-           <button-component type="submit" onClick="alert('hello')" content="Login"></button-component><br><br>
-           <span>Dont have an account? </span>
-           <button-component secondary type="submit" onClick="alert('hello')" content="SignUp"></button-component><br><br>
-       </form>
-    </div>
+    <input-component label="Username" type="text"></input-component><br>
+    <input-component label="password" type="password"></input-component><br>
+    <button-component type="submit" onClick="alert('hello')" content="Login"></button-component><br><br>
+    <span>Dont have an account? </span>
+    <button-component secondary type="submit" onClick="alert('hello')" content="SignUp"></button-component>
+    <br><br>
 
-    </div>
+    <card-component>
+        <p>//In a card component</p>
+        <input-component label="Username" type="text"></input-component><br>
+        <input-component label="password" type="password"></input-component><br>
+        <button-component type="submit" onClick="alert('hello')" content="Login"></button-component><br><br>
+        <span>Dont have an account? </span>
+        <button-component secondary type="submit" onClick="alert('hello')" content="SignUp"></button-component>
+        <br><br>
+    </card-component>
 </body>
 
 </html>

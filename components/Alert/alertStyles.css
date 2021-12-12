@@ -1,25 +1,34 @@
-.h-alert-box {
+.alert-box {
     width: auto;
-    padding: 7px 16px;
+    padding: 12px 10px;
     text-align: center;
     background-color: #000;
-    border-bottom: 5px solid gray;
-    border-right: 5px solid gray;
-    position: absolute;
-    top: 15px;
-    right: 65px;
     color: #fff;
+    border-radius: var(--br-2);
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
     font-size: 16px;
+    animation: slide-In 0.5s linear;
 }
-.h-alert-box.success {
+.alert-box.success {
     background-color: green;
 }
-.h-alert-box.error {
-    background-color: red;
+.alert-box.error {
+    background-color: var(--color-secondary);
 }
-.h-alert-box.warning{
+.alert-box.warning{
     background-color: yellow;
+    color:var(--color-black)
 }
-.h-alert-box.progress {
+.alert-box.progress {
     background-color: blue;
+}
+
+@keyframes slide-In {
+    from {
+        opacity: 0.1;  
+    } to {
+        opacity: 1;
+    }
 }
