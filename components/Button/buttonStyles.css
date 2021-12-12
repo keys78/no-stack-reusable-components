@@ -1,0 +1,24 @@
+.btn {
+    padding:9px 16px;
+    border: 1px solid var(--color-tertiary);
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+.bg-primary{background: var(--color-primary);}
+.bg-secondary{background: var(--color-secondary);}
+.bg-tertiary{background: var(--color-tertiary);}
+.bg-quartenary{background: var(---color-quartenary);}
+
+.br-1{border-radius:var(--br-1);}
+.br-2{border-radius:var(--br-2);}
+.br-3{border-radius:var(--br-3);}
+.br-full{border-radius:var(--br-full);}

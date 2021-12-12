@@ -1,0 +1,25 @@
+.h-alert-box {
+    width: auto;
+    padding: 7px 16px;
+    text-align: center;
+    background-color: #000;
+    border-bottom: 5px solid gray;
+    border-right: 5px solid gray;
+    position: absolute;
+    top: 15px;
+    right: 65px;
+    color: #fff;
+    font-size: 16px;
+}
+.h-alert-box.success {
+    background-color: green;
+}
+.h-alert-box.error {
+    background-color: red;
+}
+.h-alert-box.warning{
+    background-color: yellow;
+}
+.h-alert-box.progress {
+    background-color: blue;
+}
