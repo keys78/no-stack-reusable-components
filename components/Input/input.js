@@ -6,9 +6,6 @@ class Input extends HTMLElement {
   connectedCallback() {
     const label = this.attributes.label.value
     const type = this.attributes.type.value
-    // const id = this.attributes.id
-    // const placeholder = this.attributes.placeholder.value
-    // console.log('place', placeholder)
 
     this.innerHTML = `
           <div class="input-group">
@@ -16,14 +13,6 @@ class Input extends HTMLElement {
              <input type="${type}"/>
           </div>
         `;
-
-        // if(this.hasAttribute('placeholder')) {
-        //   return placeholder
-        // }
-
-        // if(this.hasAttribute('id')) {
-        //   return id
-        // }
   }
 }
 
